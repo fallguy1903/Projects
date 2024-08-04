@@ -1,0 +1,30 @@
+body{
+    background-color: #2B2C28 !important;
+}
+.container{
+   
+    width:95%;
+    height:100vh;
+    margin:auto;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.display{
+    border:1px solid black;
+    width:500px;
+    text-align:center;
+    padding:25px;
+    margin:auto;
+    height:400px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #DCEDFF;
+    border-radius:5px;
+    
+}
+#disp{
+    font-size:9rem;
+}

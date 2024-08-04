@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body{
+font-family: 'Jost', sans-serif;
+font-size:1rem;
+background-color: whitesmoke;
+}
+header{
+    background-color: white;
+}
+button{
+    padding:8px;
+    outline:none;
+    border:1px solid lightgray;
+    border-radius: 2px;
+    cursor:pointer;
+}
+button:hover{
+    background-color: rgb(0,0,0,0.1);
+}
+.container
+{
+    width:95%;
+    margin:auto;
+}
+.nav
+{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    margin:auto;
+    padding:20px 0;
+}
+.nav button{
+    font-family: inherit;
+}
+.create-box
+{
+    width:380px;
+    margin:auto;
+    padding:20px;
+    margin-top:10px;
+    border-radius:5px;
+    box-shadow:0 2px 4px 0 rgb(0,0,0,0.3);
+}
+.create-box textarea
+{
+    width:100%;
+    border-radius: 5px;
+    font-family: inherit;
+    border:1px solid lightgray;
+    outline: none;
+}
+.create-box button
+{
+    width:fit-content;
+}
+.flashcards{
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width:100%;
+    flex-wrap: wrap;
+    margin:auto;
+    margin-top:10px;
+    padding:0 10px;
+}
+.flashcard
+{
+    width:370px;
+    height:200px;
+    word-wrap: break-word;
+    margin:10px;
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgb(0,0,0,0.5);
+}
+.flashcard h2{
+    font-size:1rem;
+}
+@media(max-width:480px)
+{
+    .nav
+    {
+        flex-direction: column;
+    }
+}

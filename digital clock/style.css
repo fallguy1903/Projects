@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@300;400;500&display=swap');
+
+body{
+    font-family: 'Abril Fatface', cursive;
+font-family: 'Poppins', sans-serif;
+background:conic-gradient(from -90deg at 50% -25%, blue, blueviolet);
+}
+.container
+{
+    
+    width:95%;
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content:center ;
+}
+.digitalclock
+{
+    border:1px solid black;
+    width:fit-content;
+    margin:auto;
+    padding:10px;
+    background:rgb(0,0,0,0.1);
+    border-radius:2px;
+}
+.digitalclock h1{
+    display:inline-block;
+    margin:0 10px;
+    font-weight:bold;
+    font-size: 5rem;
+    color:white;
+}
+@media(max-width:768px)
+{
+    #bar1,#bar2{
+        display:none;   
+    }
+    .digitalclock h1
+    {
+        font-size:3rem;
+    }
+} 

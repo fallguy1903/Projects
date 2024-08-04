@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@300;400;500&family=Shrikhand&display=swap');
+*
+{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Abril Fatface', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Shrikhand', cursive;
+background:orange;
+/*overflow:hidden;*/
+}
+.container{
+    
+    width:90%;
+    height:100vh;
+    margin:auto;
+}
+i
+{
+    font-size:2rem;
+    color: orange;
+}
+.grocery
+{
+    
+    width:600px;
+    margin:auto;    
+    min-height:100vh;
+    background:white;
+    box-shadow: 10px 10px 24px 0 rgb(0,0,0,0.3);
+}
+#itemInput
+{
+    border:none;
+    outline:none;
+    border-bottom:3px solid black;
+    font-family:inherit;
+    width:70%;
+    font-size:1.5rem;
+}
+.grocery h1{
+    font-size:2.4rem;
+    padding-top:20px;
+}
+#additems h2{
+    font-size:2rem;
+    margin-right:10px;
+    margin-left:50px;margin-top:15px;
+}

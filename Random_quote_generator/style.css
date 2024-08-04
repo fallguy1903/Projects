@@ -1,0 +1,29 @@
+.container
+{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    height:50vh;
+    width:50%;
+    margin: auto;
+    margin-top:10%;
+    background-color: #fff;
+    border:1px solid black;
+    border-radius:5px;
+}
+button{
+    padding:10px 20px;
+    background-color:#138065;
+    color:#fff;
+    border:none;
+    font-size:18px;
+    margin-left:10px;
+    margin-top:10px;   
+    cursor: pointer;
+    box-shadow: 0 0 6px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+body{
+    background:#E1D5D3;
+}
